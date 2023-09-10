@@ -6,6 +6,7 @@ import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 
 function Navbar() {
     return (
+      <>
         <div className='navbar'>
 
          <div className="nav-container">
@@ -19,7 +20,7 @@ function Navbar() {
          <div className="navright">
           <NotificationsNoneIcon  className='notify-icon'/>
           <p>toggle </p>
-          <h4>Vinay Jadaun</h4>
+          <h4>Vinay</h4>
           <AddShoppingCartIcon className='cart-icon'/>
           <button type='button' className='account-btn' >V</button>
          </div>
@@ -29,6 +30,7 @@ function Navbar() {
        </div>
 
         </div>
+        </>
     
   )
 }
