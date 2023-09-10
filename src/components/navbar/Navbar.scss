@@ -1,0 +1,94 @@
+.navbar{
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    
+    
+
+    .nav-container{
+        width: 100%;
+        display: flex;
+
+        .nav-left{
+            width: 13%;
+
+            img{
+                width: 100%;
+                margin-top: 10px;
+                margin-left: 10px;
+            }
+        }
+
+        .nav-center{
+            
+            width: 47vw;
+            margin-top: 20px;
+            margin-left: 100px;
+            display: flex;
+      
+
+            .searchbar{
+                width: 500px;
+                height: 35px;
+                text-align:center;
+                color: grey;
+                border-radius: 5px 0px 0px 5px;
+                border: 1px solid rgb(141, 142, 144);
+                
+            }
+            .btn{
+                width: 100px;
+                height: 35px;
+                background-color: rgb(17, 129, 221);
+                border: 0px;
+                border-radius:0px 5px 5px 0px;
+                color: white;
+                cursor: pointer;
+
+            }
+        }
+        
+        .navright{
+
+            width: 40vw;
+            display: flex;
+
+
+            .notify-icon{
+                font-size: 1.7rem;
+                margin: 25px 0px 25px 30px ;
+              
+                color: rgb(158, 156, 156);
+            }
+
+            p{
+                font-size: 1rem;
+                margin: 30px 0px 25px 20px ;
+              
+                color: rgb(158, 156, 156);
+            }
+            h4{
+                margin: 30px 0px 25px 25px ;
+                font-weight: 300;
+                font-family: sans-serif;
+            }
+            .cart-icon{
+                font-size: 1.5rem;
+                margin: 27px 0px 25px 25px ;
+              
+                color: rgb(158, 156, 156);
+            }
+            .account-btn{
+               
+               width: 40px;
+               height: 40px;
+                border-radius: 50%;
+                background-color: rgb(44, 42, 42);
+                color: white;
+                margin: 15px 0px 0px 30px;
+
+            }
+        }
+    }
+    
+}
